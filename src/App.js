@@ -1,4 +1,6 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import React, { useState } from 'react';
+import './index.css';
 import './App.css';
 import About from './components/About';
 
@@ -26,18 +28,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className='app-container'>
-          <div className='content-wrap'>
-            <Header
-              sections={sections}
-              currentSection={currentSection}
-              setCurrentSection={setCurrentSection}
-            >
-            </Header>
-            <main>
-              {renderPage(currentSection)}
-            </main>
-          </div>
-          <Footer></Footer>
+
         </div>
       </header>
     </div>
