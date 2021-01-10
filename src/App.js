@@ -28,9 +28,15 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className='app-container'>
-
+        <Header
+          sections={sections}
+          currentSection={currentSection}
+          setCurrentSection={setCurrentSection}
+        >
+        </Header>
         </div>
       </header>
+      <Footer></Footer>
     </div>
   );
 }
