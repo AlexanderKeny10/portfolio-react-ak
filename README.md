@@ -13,7 +13,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 #### About Me Section:
 
-![About Section](./src/assets/images/About-pages-ss.png)
+![About Section](./src/assets/images/About-page-ss.png)
 
 #### Portfolio Section:
 
@@ -21,11 +21,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 #### Contact Section
 
-![Contact Section](./src/assets/images/Contact-pages-ss.png)
+![Contact Section](./src/assets/images/Contact-page-ss.png)
 
 #### Resume Section:
 
-![Resume Section](./src/assets/images/Resume-pages-ss.png)
+![Resume Section](./src/assets/images/Resume-page-ss.png)
 
 ## Technology Used
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)  
