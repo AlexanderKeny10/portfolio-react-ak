@@ -6,6 +6,7 @@ function Header(props) {
     const { sections, currentSection, setCurrentSection } = props;
 
     return (
+        <div>
         <header>
             <Nav
                 sections={sections}
@@ -14,6 +15,7 @@ function Header(props) {
             >
             </Nav>
         </header>
+        </div>
     );
 }
 
