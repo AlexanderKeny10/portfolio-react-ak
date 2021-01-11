@@ -42,8 +42,7 @@ Please visit my **[GitHub profile](https://github.com/Aken00/)** to check out th
 Contact me at **Ajken04@gmail.com** with any questions or if you'd like to collaborate.
 
 ## Links
-- **[My Portfolio]()**
-- **[Deployed App]()**
+- **[Deployed Portfolio](https://aken00.github.io/portfolio-react-ak/)**
 - **[GitHub Repo](https://github.com/Aken00/portfolio-react-ak)**
 - **[Connect on LinkedIn](https://www.linkedin.com/in/alexander-kenney-01690610a/)**
 
