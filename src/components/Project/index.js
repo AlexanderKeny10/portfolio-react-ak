@@ -1,20 +1,20 @@
 import React from 'react';
-import project1 from '../../assets/images/Watch-&-Sip-app.png';
+import project1 from '../../assets/images/artspo-landingpage-port.png';
 import project2 from '../../assets/images/Budget-Tracker1.jpg';
 import project3 from '../../assets/images/PlayerBeyond-SS2.png';
 import project4 from '../../assets/images/Tech-blog-dashboard-ss1.png';
 import project5 from '../../assets/images/WeatherDashboard1.png';
-import project6 from '../../assets/images/Social-Network-API.png';
+import project6 from '../../assets/images/Watch-&-Sip-app.png';
 
 function Project() {
 
     const projects = [
         {
             id: '1',
-            name: 'Watch & Sip',
-            url: 'https://quiet-ocean-97053.herokuapp.com/',
-            repo: 'Watch-and-Sip',
-            features: 'Full Stack, MVC, MySQL, RESTful API, Node.js, Express.js, Handlebars.js',
+            name: 'Art-spo',
+            url: 'https://art-spo.herokuapp.com/',
+            repo: 'Art-Spo',
+            features: 'MERN STack, MySQL, Graphql, Node.js, Express.js, mongodb, apollo-server',
             image: project1
         },
         {
@@ -51,10 +51,10 @@ function Project() {
         },
         {
             id: '6',
-            name: 'Social Network API',
-            url: 'https://github.com/Aken00/social-network-api-1',
-            repo: 'social-network-api-1',
-            features: 'JavaScript, Node.js, Express.js API, Mongoose.js, Moment.js, MongoDB,',
+            name: 'Watch & Sip',
+            url: 'https://quiet-ocean-97053.herokuapp.com/',
+            repo: 'Watch-and-Sip',
+            features: 'Full Stack, MVC, MySQL, RESTful API, Node.js, Express.js, Handlebars.js',
             image: project6
         },
     ]
