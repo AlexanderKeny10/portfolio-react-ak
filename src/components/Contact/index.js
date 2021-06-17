@@ -3,7 +3,11 @@ import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
 function ContactForm() {
-    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+    const [formState, setFormState] = useState({ 
+        name: '', 
+        email: '', 
+        message: '' 
+    });
 
     const [errorMessage, setErrorMessage] = useState('');
     const { name, email, message } = formState;
@@ -12,6 +16,7 @@ function ContactForm() {
         e.preventDefault();
         if (!errorMessage) {
             setFormState({ [e.target.name]: e.target.value });
+            console.log('Submit Form', formState);
         }
     };
 
@@ -32,6 +37,7 @@ function ContactForm() {
         }
         if (!errorMessage) {
             setFormState({ ...formState, [e.target.name]: e.target.value });
+            console.log('Handle Form', formState);
         }
     };
 

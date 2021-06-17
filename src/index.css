@@ -8,6 +8,7 @@
     --error: rgb(228, 46, 1);
     --spacing-one: calc(1rem * 0.5);
     --spacing-two: calc(1rem);
+    --spacing-five: calc(2.5rem);
 }
 
 * {
@@ -24,8 +25,10 @@ body {
 
 main {
     margin: 0 auto;
+    min-height: 100%;
     max-width: 90%;
-    padding: 70px 0 150px 0;
+    /* padding: 70px 0 150px 0; */
+    padding: 50px 30px;
     background-color: var(--primary);
 }
   
@@ -243,16 +246,16 @@ nav li {
 
 /* Contact Styles */
 
-.contact-section {
+.contact-form {
     padding: 25px 20% 10px 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 10px;
   }
-  
-  .form-input {
+
+.form-input {
     margin-bottom: 25px;
     align-items: center;
     margin-right: 15px;
@@ -262,7 +265,7 @@ nav li {
     color: var(--light);
   }
   
-  button {
+button {
     font-size: 1rem;
     font-weight: bold;
     text-decoration: none;
@@ -311,8 +314,8 @@ nav li {
   
   .message-div {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
   }
   
   textarea {
@@ -399,8 +402,9 @@ nav li {
     background-color: var(--tertiary); 
     width: 100%;
     padding: 30px;
-    /* position: absolute; */
     bottom: 0;
+    font-size: 48px;
+    justify-content: center;
   } 
 
   .link {
@@ -411,6 +415,13 @@ nav li {
   
   .link:hover {
     color: var(--main);
+  }
+
+  footer a {
+    color: var(--light);
+    opacity: .5;
+    margin: 10px 20px;
+    transition: all .3s ease-in-out;
   }
   
   .footer span {
@@ -423,9 +434,9 @@ nav li {
     background-color: var(--secondary);
   }
   
-  .footer-div {
-    padding-right: var(--spacing-two);
-    padding-left: var(--spacing-two);
+  .px-1{
+    padding-right: var(--spacing-one);
+    padding-left: var(--spacing-one);
   }
 
   /* Utility Styles */
@@ -484,6 +495,7 @@ textarea {
     height: 120px;
     border: 3px solid #cccccc;
     padding: 5px;
+    margin-top: 10px;
 }
 
 .container {
