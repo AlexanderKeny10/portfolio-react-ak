@@ -1,7 +1,6 @@
 import React from 'react';
 
 function Nav(props) {
-
     const {
         sections,
         currentSection,
@@ -28,5 +27,6 @@ function Nav(props) {
     );
 
 };
+
 
 export default Nav;

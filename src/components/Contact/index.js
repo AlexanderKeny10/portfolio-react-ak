@@ -15,7 +15,7 @@ function ContactForm() {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (!errorMessage) {
-            // setFormState({ [e.target.name]: e.target.value });
+            setFormState({ [e.target.name]: e.target.value });
             console.log('Submit Form', formState);
         }
     };
