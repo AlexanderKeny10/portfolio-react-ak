@@ -27,7 +27,7 @@ main {
     margin: 0 auto;
     min-height: 100%;
     max-width: 90%;
-    /* padding: 70px 0 150px 0; */
+    padding: 70px 0 150px 0;
     padding: 50px 30px;
     background-color: var(--primary);
 }
@@ -59,8 +59,6 @@ a:hover {
     padding-bottom: 8rem;
     background-color: var(--primary);
 }
-
-
 
 h1,
 h2,
@@ -193,7 +191,7 @@ nav li {
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px 30px;
 }
 
@@ -203,7 +201,7 @@ nav li {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 0 20%;
+    margin: 0 5%;
 }
 
 .grid-item {
@@ -408,10 +406,10 @@ button {
 .footer {
     background-color: var(--tertiary); 
     width: 100%;
-    padding: 30px;
+    padding: 10px;
     bottom: 0;
     font-size: 48px;
-    justify-content: center;
+    transition: all .3s ease-in-out;
   } 
 
   .link {
@@ -444,6 +442,7 @@ button {
   .px-1{
     padding-right: var(--spacing-one);
     padding-left: var(--spacing-one);
+    justify-content: center;
   }
 
   /* Utility Styles */
