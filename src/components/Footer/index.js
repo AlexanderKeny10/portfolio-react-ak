@@ -16,7 +16,7 @@ function Footer() {
         {
             name: "fab fa-stack-overflow",
             link: "https://stackoverflow.com/users/14980036/alex-kenney"
-        }
+        },
     ]
 
     return (
