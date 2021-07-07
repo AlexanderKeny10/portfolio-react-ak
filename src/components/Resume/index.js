@@ -88,7 +88,7 @@ function Resume() {
             </div>
             <p className='content resume-text'>View or download my full resume
                 <a className='resume-link' 
-                    href='https://drive.google.com/file/d/1mWv5i2TtCF_pGh8kggfwqIXWY78jxWyA/view?usp=sharing' 
+                    href='https://docs.google.com/document/d/1DkQojDITmeF2dqC0nqPFtP2QUIW2M31trDvLWu6HfmQ/edit?usp=sharing' 
                     target='_blank' rel='noopener noreferrer'>here.</a>
             </p>
             <h2 className='heading'>
