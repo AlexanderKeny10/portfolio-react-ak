@@ -32,7 +32,7 @@ function Footer() {
                 )}
             </div>
             {/* <div className='footer-div'>
-                    <a className="link" href="https://github.com/Aken00" target="_blank" rel='noreferrer'><i className="fab fa-github fa-3x"></i></a>
+                    <a className="link" href="https://github.com/alexanderkeny10" target="_blank" rel='noreferrer'><i className="fab fa-github fa-3x"></i></a>
                 </div>
                 <div className='footer-div'>
                     <a className="link" href="https://www.linkedin.com/in/alexander-kenney-01690610a/" target="_blank" rel='noreferrer'><i className="fab fa-linkedin fa-3x"></i></a>

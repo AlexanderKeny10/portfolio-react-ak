@@ -38,12 +38,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 <a href='https://nodejs.org/en/'>
 
 ## Contact
-Please visit my **[GitHub profile](https://github.com/Aken00/)** to check out this and other projects I've created and contributed to.
+Please visit my **[GitHub profile](https://github.com/alexanderkeny10/)** to check out this and other projects I've created and contributed to.
 Contact me at **Ajken04@gmail.com** with any questions or if you'd like to collaborate.
 
 ## Links
-- **[Deployed Portfolio](https://aken00.github.io/portfolio-react-ak/)**
-- **[GitHub Repo](https://github.com/Aken00/portfolio-react-ak)**
+- **[Deployed Portfolio](https://alexanderkeny10.github.io/portfolio-react-ak/)**
+- **[GitHub Repo](https://github.com/alexanderkeny10/portfolio-react-ak)**
 - **[Connect on LinkedIn](https://www.linkedin.com/in/alexander-kenney-01690610a/)**
 
 ## Credits

@@ -28,7 +28,7 @@ function Project() {
         {
             id: '3',
             name: 'PlayerBeyond',
-            url: 'https://aken00.github.io/playerbeyond/',
+            url: 'https://alexanderkeny10.github.io/playerbeyond/',
             repo: 'playerbeyond',
             features: 'HTML, CSS, JavaScript, jQuery, Bootstrap, Moment.js, Heroku',
             image: project3
@@ -44,7 +44,7 @@ function Project() {
         {
             id: '5',
             name: 'Weather Dashboard',
-            url: 'https://aken00.github.io/weather-dashboard-ak/',
+            url: 'https://alexanderkeny10.github.io/weather-dashboard-ak/',
             repo: 'weather-dashboard-ak',
             features: 'HTML, CSS, JavaScript, jQuery, Bootstrap, Moment.js, OpenWeather API',
             image: project5
@@ -80,7 +80,7 @@ function Project() {
                             :
                             <a href={project.url} target='_blank' rel='noreferrer'>Visit App</a>
                         }
-                        <a href={(`https://github.com/Aken00/${project.repo}`)} target='_blank' rel='noreferrer' className='project-repo'>GitHub Repo</a>
+                        <a href={(`https://github.com/alexanderkeny10/${project.repo}`)} target='_blank' rel='noreferrer' className='project-repo'>GitHub Repo</a>
                     </div>
                 </div>
             ))
