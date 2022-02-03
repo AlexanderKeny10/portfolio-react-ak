@@ -1,61 +1,70 @@
 import React from 'react';
-import project1 from '../../assets/images/artspo-landingpage-port.png';
-import project2 from '../../assets/images/Budget-Tracker1.jpg';
-import project3 from '../../assets/images/PlayerBeyond-SS2.png';
-import project4 from '../../assets/images/Tech-blog-dashboard-ss1.png';
-import project5 from '../../assets/images/WeatherDashboard1.png';
-import project6 from '../../assets/images/Watch-&-Sip-app.png';
+import project1 from '../../assets/images/searchbooks-page-ss.png';
+import project2 from '../../assets/images/artspo-landingpage-port.png';
+import project3 from '../../assets/images/Budget-Tracker1.jpg';
+import project4 from '../../assets/images/PlayerBeyond-SS2.png';
+import project5 from '../../assets/images/Tech-blog-dashboard-ss1.png';
+import project6 from '../../assets/images/WeatherDashboard1.png';
+import project7 from '../../assets/images/Watch-&-Sip-app.png';
 
 function Project() {
 
     const projects = [
         {
             id: '1',
-            name: 'Art-spo',
-            url: 'https://art-spo.herokuapp.com/',
-            repo: 'Art-Spo',
-            features: 'MERN STack, MySQL, Graphql, Node.js, Express.js, mongodb, apollo-server',
+            name: 'Book Search App',
+            url: 'https://book-search-saves.herokuapp.com/',
+            repo: 'book-search-engine',
+            features: 'Full Stack, Mern, MySQL, GraphQL, API, Node.js, Express.js, Apollo-Server',
             image: project1
         },
         {
             id: '2',
-            name: 'Budget Tacker',
-            url: 'https://budget-traker-app.herokuapp.com/',
-            repo: 'Budget-Tracker-app',
-            features: 'Full Stack, MVC, MySQL, MongoDB, Mongoose.js, MongoDB Atlas, Heroku',
+            name: 'Art-spo',
+            url: 'https://art-spo.herokuapp.com/',
+            repo: 'Art-Spo',
+            features: 'MERN STack, MySQL, Graphql, Node.js, Express.js, mongodb, apollo-server',
             image: project2
         },
         {
             id: '3',
-            name: 'PlayerBeyond',
-            url: 'https://alexanderkeny10.github.io/playerbeyond/',
-            repo: 'playerbeyond',
-            features: 'HTML, CSS, JavaScript, jQuery, Bootstrap, Moment.js, Heroku',
+            name: 'Budget Tacker',
+            url: 'https://budget-traker-app.herokuapp.com/',
+            repo: 'Budget-Tracker-app',
+            features: 'Full Stack, MVC, MySQL, MongoDB, Mongoose.js, MongoDB Atlas, Heroku',
             image: project3
         },
         {
             id: '4',
-            name: 'Biased Tech Blog',
-            url: 'https://biased-tech-hub.herokuapp.com/',
-            repo: 'Tech-Blog-MVC',
-            features: 'Full Stack, MVC, MySQL, RESTful API, Node.js, Express.js, Handlebars.js',
+            name: 'PlayerBeyond',
+            url: 'https://alexanderkeny10.github.io/playerbeyond/',
+            repo: 'playerbeyond',
+            features: 'HTML, CSS, JavaScript, jQuery, Bootstrap, Moment.js, Heroku',
             image: project4
         },
         {
             id: '5',
-            name: 'Weather Dashboard',
-            url: 'https://alexanderkeny10.github.io/weather-dashboard-ak/',
-            repo: 'weather-dashboard-ak',
-            features: 'HTML, CSS, JavaScript, jQuery, Bootstrap, Moment.js, OpenWeather API',
+            name: 'Biased Tech Blog',
+            url: 'https://biased-tech-hub.herokuapp.com/',
+            repo: 'Tech-Blog-MVC',
+            features: 'Full Stack, MVC, MySQL, RESTful API, Node.js, Express.js, Handlebars.js',
             image: project5
         },
         {
             id: '6',
+            name: 'Weather Dashboard',
+            url: 'https://alexanderkeny10.github.io/weather-dashboard-ak/',
+            repo: 'weather-dashboard-ak',
+            features: 'HTML, CSS, JavaScript, jQuery, Bootstrap, Moment.js, OpenWeather API',
+            image: project6
+        },
+        {
+            id: '7',
             name: 'Watch & Sip',
             url: 'https://quiet-ocean-97053.herokuapp.com/',
             repo: 'Watch-and-Sip',
             features: 'Full Stack, MVC, MySQL, RESTful API, Node.js, Express.js, Handlebars.js',
-            image: project6
+            image: project7
         },
     ]
 
