@@ -12,7 +12,8 @@ function About() {
                 Currently holds a Batchelor degree in Communications from Temple University and professional certificates in Full-Stack Web Development from University of Pennsylvania. 
                 Passionate about leveraging experience in production with technical background in HTML, CSS, JavaScript, Python, 
                 MySQL Relational Database and RESTful API’s to help develop web applications for a mission driven company.
-                Expect to apply my acquired skills in the fast growing coding field. 
+                Expect to apply my acquired skills in the fast growing coding field.
+                
                 </p>
             </div>
         </section>
